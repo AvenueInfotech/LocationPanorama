@@ -11,17 +11,6 @@
     android:background="@color/colorPrimary"
     tools:context="com.avenueinfotech.locationpanorama.MainActivity">
 
-    <TextView
-        android:text="Drag the yellow marker on map for panorama view"
-        android:textColor="#FF6F00"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView"
-        android:layout_above="@+id/webView"
-        />
-
 
     <WebView
         android:layout_width="match_parent"
@@ -30,6 +19,15 @@
         android:layout_marginBottom="14dp"
         android:id="@+id/webView"/>
 
+    <TextView
+        android:text="@string/drager"
+        android:gravity="center"
+        android:textColor="#FF6F00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

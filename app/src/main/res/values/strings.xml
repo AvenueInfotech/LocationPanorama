@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Location Panorama</string>
+    <string name="drager">Drag yellow marker for panorama</string>
 </resources>
